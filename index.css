@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    padding-left: 35%;
+    background-color:yellow;
+}
+
+.liste {
+    list-style-type: none;
+}
+
+
+.mig, .erhvervserfaring, .projekter, footer {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 40%;
+    background-color: cornflowerblue;
+}
