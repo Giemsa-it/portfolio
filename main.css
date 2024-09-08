@@ -133,6 +133,7 @@ nav .right a span{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
     width: 200px;
     padding: 10px 20px;
@@ -142,11 +143,11 @@ nav .right a span{
 }
 
 
-.skills-section .cells .cell i{
+.skills-section .cells .cell img{
     width: 30px;
     height: 30px;
     object-fit: contain;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 
