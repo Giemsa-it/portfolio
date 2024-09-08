@@ -27,7 +27,7 @@ a{
 
 /*navbar */
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,25 +35,25 @@ nav {
     height: 80px;
 }
 
-nav .left a {
+header nav .left a {
     color: var(--text-color);
     font-size: 22px;
     font-weight: 600;
 }
 
-nav .right a {
+header nav .right a {
     color: var(--text-color);
     margin: 0 10px;
 
 }
-nav .right a:last-child {
+header nav .right a:last-child {
     color: var(--background-color);
     background-color: var(--text-color);
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-nav .right a span{
+header nav .right a span{
     margin-left: 5px;
 }
 
@@ -71,7 +71,7 @@ nav .right a span{
     flex: 5;
 }
 
-.hero-section .text h2 {
+.hero-section .text h1{
     font-size: 45px;
 }
 
