@@ -5,122 +5,94 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <script src="main.js" defer></script>
 </head>
 
 <body>
-<header>
-        <nav>
-            <div class="left">
-                <a href="/">Magnus Giemsa</a>
-            </div>
-            <div class="right">
-                <a href="https://github.com/Giemsa-it" target=""  rel="">
-                    <i class="fa-brands fa-github"></i>
-                    <span>Github</span>
+    <nav>
+        <div class="left">
+            <a href="/">Magnus Giemsa</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/Giemsa-it" target=""  rel="">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/magnus-giemsa-a111522b3/" target=""  rel="">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+            <a href="mailto:magnus.giemsa@gmail.com" target=""  rel="">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+<main>
+    <section class="hero-section">
+        <div class="text">
+            <h1>Magnus Giemsa</h1>
+            <p>Hej jeg hedder Magnus og er studerende på Kea. Jeg læser It-arkitektur på mit første år, hvor jeg har fagene webudvikling og dataforståelse.  Jeg har en stor interesse i kodning og også en stor grund til jeg valgte mit studie. </p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Erfaring</span>
                 </a>
-                <a href="https://www.linkedin.com/in/magnus-giemsa-a111522b3/" target=""  rel="">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <span>Linkedin</span>
+                <a href="#me">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Om mig</span>
                 </a>
-                </a>
-                <a href="mailto:magnus.giemsa@gmail.com" target=""  rel="">
+                <a href="#contact">
                     <i class="fa-solid fa-envelope"></i>
-                    <span>Email</span>
+                    <span>Kontakt</span>
                 </a>
-
-
+                <div id="dark-mode">
+                    <button id="toggle-dark-mode">Toggle Dark Mode</button> <!-- Updated button ID -->
+                </div>
             </div>
-        </nav>
-</header>
-        <main>
-            <section class="hero-section">
-                <div class="text">
-                    <h1>Magnus Giemsa</h1>
-                    <p>Hej jeg hedder Magnus og er studerende på Kea. Jeg læser It-arkitektur på mit første år, hvor jeg har fagene webudvikling og dataforståelse.  Jeg har en stor interesse i kodning og også en stor grund til jeg valgte mit studie. </p>
-
-                    <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Erfaring</span>
-                    </a>
-                        <a href="#me">
-                            <i class="fa-solid fa-pen"></i>
-                            <span>Om mig</span>
-                        </a>
-                        <a href="#contact">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span>Kontakt</span>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="headshot">
-                    <img src="432b6bb5-1b36-42c7-b9f6-e516ffee7144.webp" alt="Magnus Giemsa">
-                </div>
-
-
-            </section>
-
-            <section id="skills" class="skills-section">
-                <h2>Erfaring</h2>
-                <div class="text">
-                    Min kode erfaring er Python, HTML og Css. Jeg lærte først at skrive kode i Python og er efter begyndt at lære HTML og Css.
-                </div>
-
-                <div class="cells">
-                    <div class="cell">
-                        <img src="HTML5_logo_and_wordmark.svg.png" alt="html logo">
-                        <span>HTML</span>
-                    </div>
-                    <div class="cells">
-                        <div class="cell">
-                            <img src="CSS3_logo_and_wordmark.svg" alt="css logo">
-                            <span>CSS</span>
-                        </div>
-                        <div class="cells">
-                            <div class="cell">
-                                <img src="images.jpg" alt="python logo">
-                                <span>PYTHON</span>
-                            </div>
-
-
-                        </div>
-                    </div>
-            </section>
-
-            <section id="me" class="me-section">
-                <h2>Om mig</h2>
-                <div class="group">
-                    <div class="person">
-                        <img src="432b6bb5-1b36-42c7-b9f6-e516ffee7144.webp" alt="Magnus">
-                        <p>Magnus Giemsa</p>
-
-                    </div>
-
-                    <div class="text">
-                        Mere tekst
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section id="contact"></section>
-
-
-        </main>
-
-
-
-
+        </div>
+        <div class="headshot">
+            <img src="432b6bb5-1b36-42c7-b9f6-e516ffee7144.webp" alt="Magnus Giemsa">
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>Erfaring</h2>
+        <div class="text">
+            Min kode erfaring er Python, HTML og Css. Jeg lærte først at skrive kode i Python og er efter begyndt at lære HTML og Css.
+        </div>
+        <div class="cells">
+            <div class="cell">
+                <img src="HTML5_logo_and_wordmark.svg.png" alt="html logo">
+                <span>HTML</span>
+            </div>
+            <div class="cell">
+                <img src="CSS3_logo_and_wordmark.svg" alt="css logo">
+                <span>CSS</span>
+            </div>
+            <div class="cell">
+                <img src="images.jpg" alt="python logo">
+                <span>PYTHON</span>
+            </div>
+        </div>
+    </section>
+    <section id="me" class="me-section">
+        <h2>Om mig</h2>
+        <div class="group">
+            <div class="person">
+                <img src="432b6bb5-1b36-42c7-b9f6-e516ffee7144.webp" alt="Magnus">
+                <p>Magnus Giemsa</p>
+            </div>
+            <div class="text">
+                Mere tekst
+            </div>
+        </div>
+    </section>
+    <section id="contact"></section>
+</main>
 </body>
-
 </html>
