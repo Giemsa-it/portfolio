@@ -14,5 +14,8 @@ button.addEventListener('click', () => {
         document.body.style.color = "#fff";
     }
 
+    // skifter false til true og omvendt. hurtigt måde at gøre det på.
     isDarkMode = !isDarkMode;
 });
+
+
